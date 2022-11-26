@@ -1,0 +1,32 @@
+   package com.studyopedia  ;      
+	  
+ import java.util.*;
+import java.util.jar.Attributes.Name;
+
+import javax.management.relation.InvalidRoleInfoException;
+
+
+public class Demo {
+	
+	public static String substring(String str, int si, int ei) {
+	String substr = "" ;
+	
+	for(int i=si; i<ei; i++) {
+	substr += str.charAt(i);
+	
+	}	
+	return substr;
+	
+}
+	
+	public static void main(String args[]) {
+// substring
+		String str = "HelloWorld";
+		
+		System.out.println(str.substring(0,5)); //  java before exist
+		
+		System.out.println(substring(str, 0,5 ));
+	}	
+}	
+		
+		
