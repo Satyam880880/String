@@ -1,0 +1,27 @@
+   package com.studyopedia  ;      
+	  
+ import java.util.*;
+import java.util.jar.Attributes.Name;
+
+
+public class Demo {
+	public static void main(String args[]) {
+		
+
+		//concatenation (add)
+		String firstname = "satyam";
+		String lastname = "maurya";
+		String fullname = firstname + " " + lastname;
+		System.out.println(fullname + " is this ");
+	
+		// 
+		System.out.println(fullname.charAt(7));
+	}
+		
+}
+		
+		
+		
+		
+		
+	
